@@ -1,0 +1,10 @@
+Assumeing you already have conda installed, you should be able to just run the command below to setup an env with everything you need
+conda env create -f geotiff_tiler.yml
+
+
+if you have changes to your env and need to export the config use this
+conda env export > geotiff_tiler_edit.yml
+
+if you are install new packages try to stick the the conda-forge versions such as
+conda install -c conda-forge geopandas
+
