@@ -1,6 +1,7 @@
 
 .ipynb_checkpoints/
-
-test_imagery/
 .vscode/
 __pycache__/
+test_imagery/
+
+test.py
