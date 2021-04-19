@@ -33,6 +33,7 @@ dependencies:
   - dbus=1.13.6=h48d8840_2
   - decorator=5.0.6=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
+  - deprecation=2.1.0=pyh9f0ad1d_0
   - entrypoints=0.3=pyhd8ed1ab_1003
   - expat=2.3.0=h9c3ff4c_0
   - fiona=1.8.19=py38hdb5a769_0
@@ -65,12 +66,12 @@ dependencies:
   - json5=0.9.5=pyh9f0ad1d_0
   - jsonschema=3.2.0=pyhd8ed1ab_3
   - jupyter=1.0.0=py38h578d9bd_6
-  - jupyter-packaging=0.7.12=pyhd8ed1ab_0
+  - jupyter-packaging=0.9.1=pyhd8ed1ab_0
   - jupyter_client=6.1.12=pyhd8ed1ab_0
   - jupyter_console=6.4.0=pyhd8ed1ab_0
   - jupyter_core=4.7.1=py38h578d9bd_0
-  - jupyter_server=1.6.0=py38h578d9bd_0
-  - jupyterlab=3.0.13=pyhd8ed1ab_0
+  - jupyter_server=1.6.1=py38h578d9bd_0
+  - jupyterlab=3.0.14=pyhd8ed1ab_0
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
   - jupyterlab_server=2.4.0=pyhd8ed1ab_0
   - jupyterlab_widgets=1.0.0=pyhd8ed1ab_1
@@ -194,6 +195,7 @@ dependencies:
   - testpath=0.4.4=py_0
   - tiledb=2.2.7=h91fcb0e_0
   - tk=8.6.10=h21135ba_1
+  - tomlkit=0.7.0=py38h578d9bd_3
   - tornado=6.1=py38h497a2fe_1
   - tqdm=4.60.0=pyhd8ed1ab_0
   - traitlets=5.0.5=py_0
@@ -221,5 +223,4 @@ dependencies:
   - zipp=3.4.1=pyhd8ed1ab_0
   - zlib=1.2.11=h516909a_1010
   - zstd=1.4.9=ha95c52a_0
-prefix: /home/carlos/anaconda3/envs/geotiff_tiler
-
+prefix: /home/cabaro/anaconda3/envs/geotiff_tiler
