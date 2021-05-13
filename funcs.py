@@ -9,4 +9,5 @@ def get_bounds(tif_path):
     top = geoTransform[3]
     right = left + geoTransform[1] * data.RasterXSize
     bottom = top + geoTransform[5] * data.RasterYSize
-    return[top, left, bottom, right]
+    geo_tiff_bounds_dict = {'top':top,'left':left,'bottom':bottom,'right':right,'tif_path':tif_path}
+    return geo_tiff_bounds_dict
