@@ -1,8 +1,0 @@
-conda create env gdal
-conda activate gdal
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-
-conda install gdal, geopandas, numba, multiprocess, tqdm, ipywidgets, jupyterlab, notebook, 
-
-jupyter nbextension enable --py widgetsnbextension
